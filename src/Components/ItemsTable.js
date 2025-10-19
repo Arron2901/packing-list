@@ -17,7 +17,6 @@ function ItemsTable() {
     const [refreshItems, setRefreshItems] = useState(false);
     const [items, setItems] = useState([]);
     const [newItem, setNewItem] = useState("")
-    let count = 0
     const [noItemsPacked, setNoItemsPacked] = useState(0)
     const [packedPercentage, setPackedPercentage] = useState(0)
 
